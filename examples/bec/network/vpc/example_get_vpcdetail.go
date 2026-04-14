@@ -2,7 +2,8 @@ package becvpcexample
 
 import (
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/services/bec"
+
+	"github.com/dictxwang/bce-sdk-go/services/bec"
 )
 
 // BEC vpc sdk

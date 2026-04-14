@@ -17,7 +17,7 @@
 // Package appblb defines the Application BLB services of BCE. The supported APIs are all defined in sub-package
 package appblb
 
-import "github.com/baidubce/bce-sdk-go/bce"
+import "github.com/dictxwang/bce-sdk-go/bce"
 
 const (
 	DEFAULT_SERVICE_DOMAIN = "blb." + bce.DEFAULT_REGION + ".baidubce.com"

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/eip"
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/services/eip"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 func CreateEipTransfer() {

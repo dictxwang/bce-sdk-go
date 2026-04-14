@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/services/cce/v2/types"
+	"github.com/dictxwang/bce-sdk-go/services/cce/v2/types"
 )
 
 func newWorkflowTestClient(t *testing.T, handler func(nethttp.ResponseWriter, *nethttp.Request, []byte)) *Client {

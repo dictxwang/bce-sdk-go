@@ -21,9 +21,9 @@ package cfc
 import (
 	"errors"
 
-	"github.com/baidubce/bce-sdk-go/auth"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/services/cfc/api"
+	"github.com/dictxwang/bce-sdk-go/auth"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/services/cfc/api"
 )
 
 const (

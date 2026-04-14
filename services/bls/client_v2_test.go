@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/services/bls/api"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/services/bls/api"
 )
 
 func TestProject(t *testing.T) {

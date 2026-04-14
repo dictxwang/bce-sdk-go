@@ -3,8 +3,8 @@ package esgexample
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/model"
-	"github.com/baidubce/bce-sdk-go/services/esg"
+	"github.com/dictxwang/bce-sdk-go/model"
+	"github.com/dictxwang/bce-sdk-go/services/esg"
 )
 
 // CreateESG函数用于创建企业安全组

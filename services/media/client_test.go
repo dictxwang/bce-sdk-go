@@ -3,14 +3,15 @@ package media
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/services/media/api"
 	"os"
 	"path/filepath"
 	"reflect"
 	"runtime"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/services/media/api"
+
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var (

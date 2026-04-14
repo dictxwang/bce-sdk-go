@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 type LogBase struct {

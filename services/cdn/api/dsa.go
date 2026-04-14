@@ -3,7 +3,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/bce"
 )
 
 // DSARule configure the rule of speed up which asserts.

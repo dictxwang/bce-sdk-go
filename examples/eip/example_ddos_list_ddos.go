@@ -17,7 +17,8 @@ package eipexamples
 import (
 	"encoding/json"
 	"fmt"
-	eipPackage "github.com/baidubce/bce-sdk-go/services/eip"
+
+	eipPackage "github.com/dictxwang/bce-sdk-go/services/eip"
 )
 
 func ListDdos() {

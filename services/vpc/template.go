@@ -2,9 +2,10 @@ package vpc
 
 import (
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
 	"strconv"
+
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 func (c *Client) CreateIpSet(args *CreateIpSetArgs) (*CreateIpSetResult, error) {

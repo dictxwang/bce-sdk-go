@@ -3,8 +3,8 @@ package etexamples
 import (
 	"fmt"
 
-	etPackage "github.com/baidubce/bce-sdk-go/services/et"
-	"github.com/baidubce/bce-sdk-go/util"
+	etPackage "github.com/dictxwang/bce-sdk-go/services/et"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 func DeleteEtChannelBfd() {

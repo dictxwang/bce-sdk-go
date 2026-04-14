@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	v2 "github.com/baidubce/bce-sdk-go/services/cce/v2"
-	"github.com/baidubce/bce-sdk-go/services/cce/v2/model"
+	v2 "github.com/dictxwang/bce-sdk-go/services/cce/v2"
+	"github.com/dictxwang/bce-sdk-go/services/cce/v2/model"
 )
 
 // CreateRBACForAllCluster 为指定用户授权所有集群

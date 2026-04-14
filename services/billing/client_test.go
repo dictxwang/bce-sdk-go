@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 func TestResourceMonthBill(t *testing.T) {

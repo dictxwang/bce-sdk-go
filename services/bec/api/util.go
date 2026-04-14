@@ -16,7 +16,7 @@
 package api
 
 import (
-	"github.com/baidubce/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/bce"
 )
 
 const (

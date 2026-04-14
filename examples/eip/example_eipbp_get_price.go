@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	EIP "github.com/baidubce/bce-sdk-go/services/eip"
-	"github.com/baidubce/bce-sdk-go/util"
+	EIP "github.com/dictxwang/bce-sdk-go/services/eip"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 func GetEipBpPrice() {

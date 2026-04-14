@@ -2,7 +2,8 @@ package templateexamples
 
 import (
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/services/vpc"
+
+	"github.com/dictxwang/bce-sdk-go/services/vpc"
 )
 
 func ListIpGroup() {

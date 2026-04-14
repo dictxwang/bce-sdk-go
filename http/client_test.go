@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 func ExpectEqual(t *testing.T, exp interface{}, act interface{}) bool {

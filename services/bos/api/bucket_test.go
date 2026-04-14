@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	mhttp "github.com/baidubce/bce-sdk-go/http"
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	mhttp "github.com/dictxwang/bce-sdk-go/http"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 const errorJsonBody string = `{ "owner":{ "id":"10 , "buckets":[ { "na }`

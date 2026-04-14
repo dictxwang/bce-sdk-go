@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
-	v1 "github.com/baidubce/bce-sdk-go/services/aihc/api/v1"
-	"github.com/baidubce/bce-sdk-go/services/aihc/client"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
+	v1 "github.com/dictxwang/bce-sdk-go/services/aihc/api/v1"
+	"github.com/dictxwang/bce-sdk-go/services/aihc/client"
 )
 
 const (

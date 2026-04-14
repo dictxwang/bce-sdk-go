@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 func ListPod(cli bce.Client, args *ListPodArgs) (*ListPodResult, error) {

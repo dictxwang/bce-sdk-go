@@ -15,10 +15,11 @@ package cfw
 
 import (
 	"encoding/json"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
 	"strconv"
 	"strings"
+
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 // BindCfw - 批量实例绑定CFW策略。 - 没有规则的CFW不能绑定到实例

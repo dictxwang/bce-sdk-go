@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/services/hpas/api"
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/services/hpas/api"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var (

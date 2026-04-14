@@ -18,8 +18,8 @@ package billing
 import (
 	"strconv"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 // ResourceMonthBill - get user's resource month bill

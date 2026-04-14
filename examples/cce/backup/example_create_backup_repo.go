@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	v2 "github.com/baidubce/bce-sdk-go/services/cce/v2"
-	"github.com/baidubce/bce-sdk-go/services/cce/v2/model"
+	v2 "github.com/dictxwang/bce-sdk-go/services/cce/v2"
+	"github.com/dictxwang/bce-sdk-go/services/cce/v2/model"
 )
 
 // CreateBackupRepositorys 创建备份仓库

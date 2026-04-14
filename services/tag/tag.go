@@ -17,9 +17,10 @@ package tag
 
 import (
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
 	"strconv"
+
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 // CreateTags https://cloud.baidu.com/doc/TAG/s/Okbrb3ral

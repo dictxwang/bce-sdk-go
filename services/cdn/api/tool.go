@@ -1,6 +1,6 @@
 package api
 
-import "github.com/baidubce/bce-sdk-go/bce"
+import "github.com/dictxwang/bce-sdk-go/bce"
 
 // IpInfo defined a struct for IP info
 type IpInfo struct {

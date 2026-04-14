@@ -17,7 +17,7 @@ package lbdcexamples
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/lbdc"
+	"github.com/dictxwang/bce-sdk-go/services/lbdc"
 )
 
 func UpgradeLbdc() {

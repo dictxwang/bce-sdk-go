@@ -19,8 +19,8 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/util/crypto"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/util/crypto"
 )
 
 const (

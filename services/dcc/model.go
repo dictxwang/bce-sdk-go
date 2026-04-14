@@ -1,6 +1,6 @@
 package dcc
 
-import bcc "github.com/baidubce/bce-sdk-go/services/bcc/api"
+import bcc "github.com/dictxwang/bce-sdk-go/services/bcc/api"
 
 // ListDedicatedHostArgs struct
 type ListDedicatedHostArgs struct {

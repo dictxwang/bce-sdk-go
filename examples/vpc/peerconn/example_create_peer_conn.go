@@ -2,8 +2,9 @@ package peerconnexamples
 
 import (
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/services/vpc"
-	"github.com/baidubce/bce-sdk-go/util"
+
+	"github.com/dictxwang/bce-sdk-go/services/vpc"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 func getClientToken() string {

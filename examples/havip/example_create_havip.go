@@ -3,7 +3,7 @@ package havipexample
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/havip"
+	"github.com/dictxwang/bce-sdk-go/services/havip"
 )
 
 func CreateHaVip() {

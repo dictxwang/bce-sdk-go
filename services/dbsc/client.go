@@ -15,8 +15,8 @@
 package dbsc
 
 import (
-	"github.com/baidubce/bce-sdk-go/auth"
-	"github.com/baidubce/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/auth"
+	"github.com/dictxwang/bce-sdk-go/bce"
 )
 
 const DEFAULT_SERVICE_DOMAIN = "bcc." + bce.DEFAULT_REGION + ".baidubce.com"

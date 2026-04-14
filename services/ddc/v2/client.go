@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baidubce/bce-sdk-go/auth"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/services/rds"
+	"github.com/dictxwang/bce-sdk-go/auth"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/services/rds"
 )
 
 const (

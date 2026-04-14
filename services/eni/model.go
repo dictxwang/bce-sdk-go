@@ -14,7 +14,7 @@
 
 package eni
 
-import "github.com/baidubce/bce-sdk-go/model"
+import "github.com/dictxwang/bce-sdk-go/model"
 
 type CreateEniArgs struct {
 	ClientToken                 string           `json:"-"`

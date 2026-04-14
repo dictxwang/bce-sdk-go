@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/bcc/api"
-	v2 "github.com/baidubce/bce-sdk-go/services/cce/v2"
-	"github.com/baidubce/bce-sdk-go/services/cce/v2/types"
+	"github.com/dictxwang/bce-sdk-go/services/bcc/api"
+	v2 "github.com/dictxwang/bce-sdk-go/services/cce/v2"
+	"github.com/dictxwang/bce-sdk-go/services/cce/v2/types"
 )
 
 func CreateCluster() {

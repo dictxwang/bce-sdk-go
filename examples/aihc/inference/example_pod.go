@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	api "github.com/baidubce/bce-sdk-go/services/aihc/inference/v2"
+	api "github.com/dictxwang/bce-sdk-go/services/aihc/inference/v2"
 )
 
 func ListPod() {

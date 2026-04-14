@@ -19,7 +19,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/util/crypto"
+	"github.com/dictxwang/bce-sdk-go/util/crypto"
 )
 
 func Aes128EncryptUseSecreteKey(sk string, data string) (string, error) {

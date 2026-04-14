@@ -1,9 +1,9 @@
 package media
 
 import (
-	"github.com/baidubce/bce-sdk-go/auth"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/services/media/api"
+	"github.com/dictxwang/bce-sdk-go/auth"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/services/media/api"
 )
 
 const DEFAULT_SERVICE_DOMAIN = "media.bj.baidubce.com"

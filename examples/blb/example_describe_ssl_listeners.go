@@ -17,7 +17,7 @@ package blbexamples
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/blb"
+	"github.com/dictxwang/bce-sdk-go/services/blb"
 )
 
 // DescribeSSLListeners 函数用于获取指定负载均衡实例的SSL监听列表

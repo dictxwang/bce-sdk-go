@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	bccapi "github.com/baidubce/bce-sdk-go/services/bcc/api"
-	"github.com/baidubce/bce-sdk-go/services/cce/v2/types"
-	"github.com/baidubce/bce-sdk-go/util/log"
+	bccapi "github.com/dictxwang/bce-sdk-go/services/bcc/api"
+	"github.com/dictxwang/bce-sdk-go/services/cce/v2/types"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var (

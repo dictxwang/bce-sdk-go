@@ -3,7 +3,7 @@ package bccsgexamples
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/bcc"
+	"github.com/dictxwang/bce-sdk-go/services/bcc"
 )
 
 // DeleteSecurityGroup - delete a security group

@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baidubce/bce-sdk-go/auth"
-	"github.com/baidubce/bce-sdk-go/bce"
-	my_http "github.com/baidubce/bce-sdk-go/http"
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/auth"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	my_http "github.com/dictxwang/bce-sdk-go/http"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 func TestAddCrc64Check(t *testing.T) {

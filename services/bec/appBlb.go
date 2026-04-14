@@ -20,8 +20,9 @@ package bec
 
 import (
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/services/bec/api"
 	"strconv"
+
+	"github.com/dictxwang/bce-sdk-go/services/bec/api"
 )
 
 // CreateAppBlb - create app lb  with the specific parameters

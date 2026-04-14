@@ -1,9 +1,10 @@
 package vcr
 
 import (
-	"github.com/baidubce/bce-sdk-go/services/vcr/api"
-	"github.com/baidubce/bce-sdk-go/util/log"
 	"testing"
+
+	"github.com/dictxwang/bce-sdk-go/services/vcr/api"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var CLIENT *Client

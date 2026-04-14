@@ -3,13 +3,14 @@ package bvw
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/services/bvw/api"
-	"github.com/baidubce/bce-sdk-go/util/log"
 	"os"
 	"path/filepath"
 	"reflect"
 	"runtime"
 	"testing"
+
+	"github.com/dictxwang/bce-sdk-go/services/bvw/api"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var (

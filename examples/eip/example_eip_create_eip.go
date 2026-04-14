@@ -16,9 +16,10 @@ package eipexamples
 
 import (
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/model"
 
-	EIP "github.com/baidubce/bce-sdk-go/services/eip"
+	"github.com/dictxwang/bce-sdk-go/model"
+
+	EIP "github.com/dictxwang/bce-sdk-go/services/eip"
 )
 
 func CreateEip() {

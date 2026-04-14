@@ -1,8 +1,8 @@
 package bbc
 
 import (
-	"github.com/baidubce/bce-sdk-go/model"
-	"github.com/baidubce/bce-sdk-go/services/bbc"
+	"github.com/dictxwang/bce-sdk-go/model"
+	"github.com/dictxwang/bce-sdk-go/services/bbc"
 )
 
 func BindReservedTagsDemo() {

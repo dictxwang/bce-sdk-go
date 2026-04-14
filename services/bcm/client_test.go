@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baidubce/bce-sdk-go/services/bcm/model"
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/services/bcm/model"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var (

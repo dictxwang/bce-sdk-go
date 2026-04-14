@@ -15,7 +15,7 @@
 package csn
 
 import (
-	"github.com/baidubce/bce-sdk-go/model"
+	"github.com/dictxwang/bce-sdk-go/model"
 )
 
 type AttachInstanceRequest struct {

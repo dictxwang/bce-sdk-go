@@ -30,7 +30,7 @@ CDN服务（海外版，百度智能云与其它公司合作建设的CDN产品�
 package main
 
 import (
-	"github.com/baidubce/bce-sdk-go/services/cdn/abroad"
+	"github.com/dictxwang/bce-sdk-go/services/cdn/abroad"
 )
 
 func main() {

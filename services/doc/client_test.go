@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baidubce/bce-sdk-go/services/bos"
-	"github.com/baidubce/bce-sdk-go/services/doc/api"
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/services/bos"
+	"github.com/dictxwang/bce-sdk-go/services/doc/api"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var (

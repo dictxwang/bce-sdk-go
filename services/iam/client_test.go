@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/services/iam/api"
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/services/iam/api"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 // For security reason, ak/sk should not hard write here.

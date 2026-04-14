@@ -3,9 +3,10 @@ package bct
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/services/bct"
-	"github.com/baidubce/bce-sdk-go/services/bct/api"
 	"time"
+
+	"github.com/dictxwang/bce-sdk-go/services/bct"
+	"github.com/dictxwang/bce-sdk-go/services/bct/api"
 )
 
 func ExampleQueryEventsV2() {

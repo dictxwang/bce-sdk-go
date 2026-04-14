@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/bce"
 )
 
 // UserCertificate defined a struct for the origin certificate hold by user.

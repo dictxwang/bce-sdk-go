@@ -21,8 +21,8 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/services/aihc/client"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/services/aihc/client"
 )
 
 const DEFAULT_SERVICE_DOMAIN = "aihc.baidubce.com"

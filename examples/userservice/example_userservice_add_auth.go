@@ -15,8 +15,8 @@
 package userserviceexamples
 
 import (
-	"github.com/baidubce/bce-sdk-go/services/userservice"
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/services/userservice"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 // UserServiceAddAuth 添加用户服务权限

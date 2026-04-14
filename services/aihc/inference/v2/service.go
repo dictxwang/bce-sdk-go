@@ -3,8 +3,8 @@ package api
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 func CreateService(cli bce.Client, reqBody *bce.Body, clientToken string) (*CreateServiceResult, error) {

@@ -18,7 +18,7 @@ package blbexamples
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/blb"
+	"github.com/dictxwang/bce-sdk-go/services/blb"
 )
 
 func DescribeBackendServers() {

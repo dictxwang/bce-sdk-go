@@ -14,13 +14,13 @@
 
 // securitygroup.go - the securitygroup APIs definition supported by the BLB service
 
-
 package blb
 
 import (
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
+
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 // BindSecurityGroups - bind the blb security groups (normal/application/ipv6 LoadBalancer)

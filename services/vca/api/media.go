@@ -19,8 +19,9 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
+
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 func PutMedia(cli bce.Client, args *PutMediaArgs) (*GetMediaResult, error) {

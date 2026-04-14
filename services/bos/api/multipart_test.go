@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/auth"
-	"github.com/baidubce/bce-sdk-go/bce"
-	my_http "github.com/baidubce/bce-sdk-go/http"
-	"github.com/baidubce/bce-sdk-go/util"
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/auth"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	my_http "github.com/dictxwang/bce-sdk-go/http"
+	"github.com/dictxwang/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var (

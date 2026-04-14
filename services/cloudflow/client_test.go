@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/services/cloudflow/api"
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/services/cloudflow/api"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 // ExpectEqual is the helper function for test each case

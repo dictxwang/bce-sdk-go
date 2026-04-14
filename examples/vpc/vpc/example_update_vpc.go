@@ -3,7 +3,7 @@ package vpcexamples
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/vpc"
+	"github.com/dictxwang/bce-sdk-go/services/vpc"
 )
 
 // UpdateVpc 更新VPC基本信息

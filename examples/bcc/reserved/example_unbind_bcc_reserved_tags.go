@@ -1,10 +1,10 @@
 package reserved
 
 import (
-	"github.com/baidubce/bce-sdk-go/model"
-	"github.com/baidubce/bce-sdk-go/services/bcc/api"
+	"github.com/dictxwang/bce-sdk-go/model"
+	"github.com/dictxwang/bce-sdk-go/services/bcc/api"
 
-	"github.com/baidubce/bce-sdk-go/services/bcc"
+	"github.com/dictxwang/bce-sdk-go/services/bcc"
 )
 
 func UnbindBccReservedTagsDemo() {

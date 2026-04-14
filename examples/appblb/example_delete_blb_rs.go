@@ -16,7 +16,7 @@
 package appblbexamples
 
 import (
-	"github.com/baidubce/bce-sdk-go/services/appblb"
+	"github.com/dictxwang/bce-sdk-go/services/appblb"
 )
 
 func DeleteBLBRs() {

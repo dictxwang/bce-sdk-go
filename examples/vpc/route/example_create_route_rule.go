@@ -3,7 +3,7 @@ package routeexample
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/vpc"
+	"github.com/dictxwang/bce-sdk-go/services/vpc"
 )
 
 // main函数用于启动程序

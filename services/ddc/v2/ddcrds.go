@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baidubce/bce-sdk-go/services/ddc/ddc_util"
-	"github.com/baidubce/bce-sdk-go/services/rds"
+	"github.com/dictxwang/bce-sdk-go/services/ddc/ddc_util"
+	"github.com/dictxwang/bce-sdk-go/services/rds"
 )
 
 // Int int point helper

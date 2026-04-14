@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baidubce/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/bce"
 )
 
 // The time interval of statistics data merged by, we defined 3 valid values here.

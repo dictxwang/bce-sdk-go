@@ -3,11 +3,12 @@ package bec
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/baidubce/bce-sdk-go/util/log"
 	"os"
 	"path/filepath"
 	"reflect"
 	"runtime"
+
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var CLIENT *Client

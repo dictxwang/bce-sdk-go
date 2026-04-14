@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 func TestPutUserQuota(t *testing.T) {

@@ -16,9 +16,9 @@
 package ipv6blbexamples
 
 import (
-    "fmt"
-    
-    "github.com/baidubce/bce-sdk-go/services/blb"
+	"fmt"
+
+	"github.com/dictxwang/bce-sdk-go/services/blb"
 )
 
 func DescribeLoadBalancers() {

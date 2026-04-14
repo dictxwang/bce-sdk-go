@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/auth"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/auth"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 // TestRsaEncryptSuccess tests RSA encryption with valid data

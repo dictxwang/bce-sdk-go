@@ -1,3 +1,3 @@
-module github.com/baidubce/bce-sdk-go
+module github.com/dictxwang/bce-sdk-go
 
 go 1.11

@@ -21,7 +21,7 @@ package bec
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/bec/api"
+	"github.com/dictxwang/bce-sdk-go/services/bec/api"
 )
 
 // GetBecAvailableNodeInfoVo -  get available node

@@ -17,8 +17,8 @@ package mms
 import (
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/services/mms/api"
-	"github.com/baidubce/bce-sdk-go/util/log"
+	"github.com/dictxwang/bce-sdk-go/services/mms/api"
+	"github.com/dictxwang/bce-sdk-go/util/log"
 )
 
 var CLIENT *Client

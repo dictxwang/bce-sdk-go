@@ -19,10 +19,11 @@ package cas
 import (
 	"encoding/json"
 	"errors"
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
 	"io"
 	"strconv"
+
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
 )
 
 // GetSslList get user ssl list

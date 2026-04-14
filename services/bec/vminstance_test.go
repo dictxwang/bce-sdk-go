@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/baidubce/bce-sdk-go/services/bec/api"
+	"github.com/dictxwang/bce-sdk-go/services/bec/api"
 )
 
 //////////////////////////////////////////////

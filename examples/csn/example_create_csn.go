@@ -3,9 +3,9 @@ package csnexamples
 import (
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/model"
-	"github.com/baidubce/bce-sdk-go/services/csn"
-	"github.com/baidubce/bce-sdk-go/util"
+	"github.com/dictxwang/bce-sdk-go/model"
+	"github.com/dictxwang/bce-sdk-go/services/csn"
+	"github.com/dictxwang/bce-sdk-go/util"
 )
 
 func CreateCsn() {

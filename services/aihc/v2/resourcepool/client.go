@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/baidubce/bce-sdk-go/bce"
-	"github.com/baidubce/bce-sdk-go/http"
-	v2 "github.com/baidubce/bce-sdk-go/services/aihc/v2/api"
-	"github.com/baidubce/bce-sdk-go/services/aihc/v2/client"
+	"github.com/dictxwang/bce-sdk-go/bce"
+	"github.com/dictxwang/bce-sdk-go/http"
+	v2 "github.com/dictxwang/bce-sdk-go/services/aihc/v2/api"
+	"github.com/dictxwang/bce-sdk-go/services/aihc/v2/client"
 )
 
 type Client struct {

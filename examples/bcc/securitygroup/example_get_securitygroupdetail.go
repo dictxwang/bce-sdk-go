@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/baidubce/bce-sdk-go/services/bcc"
+	"github.com/dictxwang/bce-sdk-go/services/bcc"
 )
 
 // GetSecurityGroupDetail 获取安全组详情

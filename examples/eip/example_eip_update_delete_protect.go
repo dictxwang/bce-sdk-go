@@ -2,7 +2,8 @@ package eipexamples
 
 import (
 	"fmt"
-	EIP "github.com/baidubce/bce-sdk-go/services/eip"
+
+	EIP "github.com/dictxwang/bce-sdk-go/services/eip"
 )
 
 func UpdateEipDeleteProtect() {
