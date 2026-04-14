@@ -594,6 +594,8 @@ type CreateInstanceBySpecArgs struct {
 	NumaConfig                 string           `json:"numaConfig"`
 	KeepImageLogin             bool             `json:"keepImageLogin"`
 	IsEipAutoRelatedDelete     bool             `json:"isEipAutoRelatedDelete"`
+	CpuCount                   int              `json:"cpuCount"`
+	MemoryCapacityInGB         int              `json:"memoryCapacityInGB"`
 }
 
 type CreateInstanceBySpecArgsV2 struct {
