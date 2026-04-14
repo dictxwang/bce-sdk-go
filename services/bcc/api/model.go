@@ -529,6 +529,7 @@ type GetBidInstancePriceArgs struct {
 	SecurityGroupId       string           `json:"securityGroupId,omitempty"`
 	SubnetId              string           `json:"subnetId,omitempty"`
 	ZoneName              string           `json:"zoneName,omitempty"`
+	Spec                  string           `json:"spec,omitempty"`
 	InternetChargeType    string           `json:"internetChargeType,omitempty"`
 	ClientToken           string           `json:"-"`
 }
