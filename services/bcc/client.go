@@ -242,6 +242,9 @@ func (c *Client) CreateInstanceBySpecV2(argsV2 *api.CreateInstanceBySpecArgsV2) 
 	if argsV2.IsOpenIpv6 == nil {
 		argsV2.IsOpenIpv6 = &defaultFalse
 	}
+	if argsV2.EnableNuma == nil {
+		argsV2.EnableNuma = &defaultFalse
+	}
 
 	jsonBytes, jsonErr := json.Marshal(argsV2)
 	if jsonErr != nil {

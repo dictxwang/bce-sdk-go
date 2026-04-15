@@ -626,20 +626,20 @@ type CreateInstanceBySpecArgsV2 struct {
 	RelationTag                *bool            `json:"relationTag"`
 	Tags                       []model.TagModel `json:"tags,omitempty"`
 	KeypairId                  string           `json:"keypairId"`
-	AutoRenewTimeUnit          string           `json:"autoRenewTimeUnit"`
-	AutoRenewTime              int              `json:"autoRenewTime"`
+	AutoRenewTimeUnit          string           `json:"autoRenewTimeUnit,omitempty"`
+	AutoRenewTime              int              `json:"autoRenewTime,omitempty"`
 	RaidId                     string           `json:"raidId,omitempty"`
 	EnableNuma                 *bool            `json:"enableNuma"`
 	DataPartitionType          string           `json:"dataPartitionType,omitempty"`
 	RootPartitionType          string           `json:"rootPartitionType,omitempty"`
 	CdsAutoRenew               *bool            `json:"cdsAutoRenew"`
-	AspId                      string           `json:"aspId"`
+	AspId                      string           `json:"aspId,omitempty"`
 	InternalIps                []string         `json:"internalIps,omitempty"`
 	DeployId                   string           `json:"deployId,omitempty"`
 	UserData                   string           `json:"userData,omitempty"`
 	ClientToken                string           `json:"-"`
 	RequestToken               string           `json:"requestToken"`
-	DeployIdList               []string         `json:"deployIdList"`
+	DeployIdList               []string         `json:"deployIdList,omitempty"`
 	DetetionProtection         int              `json:"deletionProtection"`
 	IsOpenIpv6                 *bool            `json:"isOpenIpv6"`
 	SpecId                     string           `json:"specId,omitempty"`
