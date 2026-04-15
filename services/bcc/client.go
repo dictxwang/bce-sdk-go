@@ -245,6 +245,9 @@ func (c *Client) CreateInstanceBySpecV2(argsV2 *api.CreateInstanceBySpecArgsV2) 
 	if argsV2.EnableNuma == nil {
 		argsV2.EnableNuma = &defaultFalse
 	}
+	if argsV2.EnableHt == nil {
+		argsV2.EnableHt = &defaultTrue
+	}
 
 	jsonBytes, jsonErr := json.Marshal(argsV2)
 	if jsonErr != nil {
