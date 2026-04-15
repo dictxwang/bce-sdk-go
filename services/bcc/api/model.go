@@ -650,6 +650,8 @@ type CreateInstanceBySpecArgsV2 struct {
 	EnableHt                   *bool            `json:"enableHt"`
 	KeepImageLogin             bool             `json:"keepImageLogin"`
 	EhcClusterId               string           `json:"ehcClusterId,omitempty"`
+	CpuCount                   int              `json:"cpuCount"`
+	MemoryCapacityInGB         int              `json:"memoryCapacityInGB"`
 }
 
 const (
