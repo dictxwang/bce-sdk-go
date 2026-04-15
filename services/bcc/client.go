@@ -1911,6 +1911,9 @@ func (c *Client) CreateBidInstance(args *api.CreateInstanceArgs) (*api.CreateIns
 	if jsonErr != nil {
 		return nil, jsonErr
 	}
+	
+	fmt.Printf("CreateBidInstance: %s\n", string(jsonBytes))
+
 	body, err := bce.NewBodyFromBytes(jsonBytes)
 	if err != nil {
 		return nil, err
