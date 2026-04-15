@@ -248,6 +248,8 @@ func (c *Client) CreateInstanceBySpecV2(argsV2 *api.CreateInstanceBySpecArgsV2) 
 		return nil, jsonErr
 	}
 
+	fmt.Printf("CreateInstanceBySpecV2: %s\n", string(jsonBytes))
+
 	args := &api.CreateInstanceBySpecArgs{}
 	err := json.Unmarshal(jsonBytes, args)
 	if err != nil {
