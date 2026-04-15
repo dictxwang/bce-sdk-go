@@ -625,7 +625,7 @@ type CreateInstanceBySpecArgsV2 struct {
 	EniIds                     []string         `json:"eniIds,omitempty"`
 	RelationTag                *bool            `json:"relationTag"`
 	Tags                       []model.TagModel `json:"tags,omitempty"`
-	KeypairId                  string           `json:"keypairId"`
+	KeypairId                  string           `json:"keypairId,omitempty"`
 	AutoRenewTimeUnit          string           `json:"autoRenewTimeUnit,omitempty"`
 	AutoRenewTime              int              `json:"autoRenewTime,omitempty"`
 	RaidId                     string           `json:"raidId,omitempty"`
@@ -638,7 +638,7 @@ type CreateInstanceBySpecArgsV2 struct {
 	DeployId                   string           `json:"deployId,omitempty"`
 	UserData                   string           `json:"userData,omitempty"`
 	ClientToken                string           `json:"-"`
-	RequestToken               string           `json:"requestToken"`
+	RequestToken               string           `json:"requestToken,omitempty"`
 	DeployIdList               []string         `json:"deployIdList,omitempty"`
 	DetetionProtection         int              `json:"deletionProtection"`
 	IsOpenIpv6                 *bool            `json:"isOpenIpv6"`
