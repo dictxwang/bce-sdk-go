@@ -352,7 +352,7 @@ type CreateInstanceArgs struct {
 	InternalIps                []string          `json:"internalIps,omitempty"`
 	ClientToken                string            `json:"-"`
 	RequestToken               string            `json:"requestToken"`
-	DeployIdList               []string          `json:"deployIdList"`
+	DeployIdList               []string          `json:"deployIdList,omitempty"`
 	DetetionProtection         int               `json:"deletionProtection"`
 	FileSystems                []FileSystemModel `json:"fileSystems,omitempty"`
 	IsOpenHostEye              bool              `json:"isOpenHostEye,omitempty"`
