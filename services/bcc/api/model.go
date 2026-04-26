@@ -596,6 +596,7 @@ type CreateInstanceBySpecArgs struct {
 	IsEipAutoRelatedDelete     bool             `json:"isEipAutoRelatedDelete"`
 	CpuCount                   int              `json:"cpuCount"`
 	MemoryCapacityInGB         int              `json:"memoryCapacityInGB"`
+	FileSystems                []FileSystemModel `json:"fileSystems,omitempty"`
 }
 
 type CreateInstanceBySpecArgsV2 struct {
@@ -652,6 +653,7 @@ type CreateInstanceBySpecArgsV2 struct {
 	EhcClusterId               string           `json:"ehcClusterId,omitempty"`
 	CpuCount                   int              `json:"cpuCount"`
 	MemoryCapacityInGB         int              `json:"memoryCapacityInGB"`
+	FileSystems                []FileSystemModel `json:"fileSystems,omitempty"`
 }
 
 const (
